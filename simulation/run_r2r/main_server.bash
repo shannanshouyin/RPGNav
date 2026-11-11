@@ -8,9 +8,9 @@ EVAL_CKPT=${3:-data/logs/checkpoints/release_r2r_dagger/ckpt.iter3800.pth}
 flag1="--exp_name release_r2r_dagger
       --run-type dagger
       --exp-config run_r2r/iter_train.yaml
-      SIMULATOR_GPU_IDS [0]
-      TORCH_GPU_IDS [0]
-      GPU_NUMBERS 1
+      SIMULATOR_GPU_IDS [0,1]
+      TORCH_GPU_IDS [0,1]
+      GPU_NUMBERS 2
       NUM_ENVIRONMENTS 8
       IL.waypoint_aug  True
       TASK_CONFIG.SIMULATOR.HABITAT_SIM_V0.ALLOW_SLIDING True
@@ -53,7 +53,7 @@ fi
 case $mode in 
       dagger)
       echo "###### dagger train mode ######"
-      python -m torch.distributed.launch --nproc_per_node=1 --master_port $2 run.py $flag1 $EXTRA_OPTS
+      python -m torch.distributed.launch --nproc_per_node=2 --master_port $2 run.py $flag1 $EXTRA_OPTS
       ;;
       eval)
       echo "###### eval mode ######"
@@ -66,4 +66,4 @@ case $mode in
 esac
 
 # 命令行运行：
-# bash run_r2r/main_server.bash dagger 2333
+# CUDA_VISIBLE_DEVICES=0,1 bash run_r2r/main_server.bash dagger 2333

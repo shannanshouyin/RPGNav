@@ -42,7 +42,7 @@ conda activate etpr1
 
 ## Training and evaluation
 
-Run commands from the overlaid ETP-R1 working directory. The launcher uses **one GPU**, eight environments for DAgger and one for evaluation.
+Simulation training uses **two NVIDIA GeForce RTX 4090 GPUs**. Run commands from the overlaid ETP-R1 working directory. The training launcher starts two distributed processes, one per GPU, with eight environments per GPU (16 in total). Evaluation uses one GPU and one environment.
 
 Before training, edit `run_r2r/iter_train.yaml`:
 
@@ -52,7 +52,7 @@ Before training, edit `run_r2r/iter_train.yaml`:
 
 ```bash
 # Online RP-DAgger training
-CUDA_VISIBLE_DEVICES=0 bash run_r2r/main_server.bash dagger 2333
+CUDA_VISIBLE_DEVICES=0,1 bash run_r2r/main_server.bash dagger 2333
 
 # Evaluate an RPGNav checkpoint.
 CUDA_VISIBLE_DEVICES=0 bash run_r2r/main_server.bash eval 2333 /path/to/rpgnav.pth
