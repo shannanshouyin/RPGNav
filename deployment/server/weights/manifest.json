@@ -1,0 +1,10 @@
+{
+  "model": {
+    "filename": "ckpt.iter80.pth",
+    "sha256": "33defc859708726e3522bf62a91eb36eda2ce199ba3be1a4e3bbc45507182089"
+  },
+  "waypoint": {
+    "filename": "waypoint.pth",
+    "sha256": "09d0f42cbd801e05b0fa0212b901d409f033f4d0bce2fce1fa8a1331b502159f"
+  }
+}

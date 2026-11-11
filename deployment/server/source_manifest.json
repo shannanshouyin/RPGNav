@@ -1,0 +1,29 @@
+{
+  "files": {
+    "vendor/RPGNav/LICENSE": "6b0b891f943448eb977f9156938029adc7d40566128d674e3a796ed2ad6b64b1",
+    "vendor/RPGNav/bert_config/xlm-roberta-base/config.json": "d66ed8cd4f2a93b358c245e50736fa389ed4f35c0bae7aad0b32abb20c62b579",
+    "vendor/RPGNav/bert_config/xlm-roberta-base/sentencepiece.bpe.model": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865",
+    "vendor/RPGNav/bert_config/xlm-roberta-base/tokenizer.json": "a898ea75433890f6610f4e470b8ebeb0c21dce5c8dd61f892eb09eb5919d2e2c",
+    "vendor/RPGNav/licenses/Apache-2.0.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "vendor/RPGNav/licenses/ETPNav-MIT.txt": "1cbe97e9125770b6ad793615dee6d5c5f7642c2851a59b436addacc88180683d",
+    "vendor/RPGNav/licenses/Third-Party-MIT.txt": "44283946a2fcd992d30426af46644b8e28a34515ae7b3af086648ad0bcc3c90a",
+    "vendor/RPGNav/vlnce_baselines/common/ops.py": "50a09535ea90757adb902979a1583f921c6f249eeeb61b4c0c7114c840aac787",
+    "vendor/RPGNav/vlnce_baselines/common/transformer.py": "cb128fb8b505fff29b9d4b1f09f7b9383020db49e3e9ee933506a42fd4848cca",
+    "vendor/RPGNav/vlnce_baselines/models/R1Policy.py": "96fd40c74c272a91964b8a96eed7d33689520fc8e191f366ebdb04cf86c1b4e2",
+    "vendor/RPGNav/vlnce_baselines/models/etp/ETP_R1_vilmodel_cmt.py": "5f9f345b64480bd16d915f4b68567a6a4d225abbf68a1c89595439ddebc76c34",
+    "vendor/RPGNav/vlnce_baselines/models/etp/checkpoint_compat.py": "5d5186cea85ec89fea673b9d4be2970c39e4b42b3ab7f5f9df2c4a4fb1a257be",
+    "vendor/RPGNav/vlnce_baselines/models/graph_utils.py": "cda872a9129be264ff9ff15fcf5933ab589145ae2ca4c20d69a705741376a22d",
+    "vendor/RPGNav/vlnce_baselines/ss_trainer_ETP_R1.py": "892bf740f847eaf0d098eae6f17364894a43d75bb21857d6be68030d2b97317f",
+    "vendor/RPGNav/vlnce_baselines/waypoint_pred/TRM_net.py": "568536be89404cf9bc305d454f264fba6192ef938dcfae22dbddf6f3e37de627",
+    "vendor/RPGNav/vlnce_baselines/waypoint_pred/transformer/pytorch_transformer/file_utils.py": "26988bf80a0b3059ec76dd032344c3bbdcf917a2df9e2393a8159f750a2a052f",
+    "vendor/RPGNav/vlnce_baselines/waypoint_pred/transformer/pytorch_transformer/modeling_bert.py": "ac6e799669e66e7d955147b8d79688b71a8672cdff526e1811b277f789688fc5",
+    "vendor/RPGNav/vlnce_baselines/waypoint_pred/transformer/pytorch_transformer/modeling_utils.py": "2d2a9cf6672de6a3347e2ea04522d39b5075b18d51d044891c8e98c4e3677863",
+    "vendor/RPGNav/vlnce_baselines/waypoint_pred/transformer/waypoint_bert.py": "c5f88dae3d4bf169c97c0cbb8696f26783ce71342767cca5567d883b0ceeb3e3",
+    "vendor/RPGNav/vlnce_baselines/waypoint_pred/utils.py": "008070155e0eba889dcfda0f4762d9aea6ddeaaec508764d245cbe15d0666e9c",
+    "vendor/habitat-lab/LICENSE": "f08a94bfb0bdc1d7f1cb59badaf0f8c551b10db871185622dbf1fd036affa9cb",
+    "vendor/habitat-lab/habitat/tasks/utils.py": "aaf0dc441ed366b63ac4535f475b0996ea05fe4e570f4e85d07af64d5014dc24",
+    "vendor/habitat-lab/habitat/utils/geometry_utils.py": "3ee8d6ed5911fd0af5b8e5d39783836a6514501484a3231d9de93a09637da8c1",
+    "vendor/habitat-lab/habitat_baselines/rl/ddppo/policy/resnet.py": "499f4a5a24265660fae1fe1463798408aef1648210131e797365f364dcea75de",
+    "vendor/habitat-lab/habitat_baselines/rl/ddppo/policy/resnet_policy.py": "fd361f5a32f1bbffcbc324fdc851dcd88a3ddbe14a701e3bbb31ad5a8b0c26f7"
+  }
+}
